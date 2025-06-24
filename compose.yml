@@ -17,7 +17,6 @@ services:
       WAKAPI_MAIL_SMTP_PASS: "${WAKAPI_MAIL_SMTP_PASS}"     # [2]
     networks:
       - dokploy-network
-    restart: always
 
   db:
     image: postgres:17                                    # [1]
